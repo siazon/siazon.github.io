@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-43f056c8","path":"/group/foo.html","title":"Wiiya国际","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"Wiiya国际","description":"页面的描述"},"headers":[],"git":{"updatedTime":1690127472000,"contributors":[{"name":"Xiasong Chen","email":"296724771@qq.com","commits":1}]},"filePathRelative":"group/foo.md"}');export{t as data};

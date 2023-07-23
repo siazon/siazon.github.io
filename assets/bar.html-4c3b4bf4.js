@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5f0a6d6f","path":"/group/bar.html","title":"Luhui","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"Luhui","description":"页面的描述"},"headers":[],"git":{"updatedTime":1690127472000,"contributors":[{"name":"Xiasong Chen","email":"296724771@qq.com","commits":1}]},"filePathRelative":"group/bar.md"}');export{t as data};

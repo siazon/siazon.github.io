@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/favicon.ico"><title>你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/assets/style-8a38cc2d.css" as="style"><link rel="stylesheet" href="/assets/style-8a38cc2d.css">
+    <link rel="modulepreload" href="/assets/app-51203c9f.js"><link rel="modulepreload" href="/assets/404.html-9200cfd3.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/assets/contributing.html-1ea7f26d.js" as="script"><link rel="prefetch" href="/assets/index.html-5c235964.js" as="script"><link rel="prefetch" href="/assets/index.html-ba573f5c.js" as="script"><link rel="prefetch" href="/assets/index.html-bc775951.js" as="script"><link rel="prefetch" href="/assets/bar.html-4c3b4bf4.js" as="script"><link rel="prefetch" href="/assets/file.html-a9cd8023.js" as="script"><link rel="prefetch" href="/assets/foo.html-46326856.js" as="script"><link rel="prefetch" href="/assets/contributing.html-6c37dbc5.js" as="script"><link rel="prefetch" href="/assets/index.html-d0bcd637.js" as="script"><link rel="prefetch" href="/assets/index.html-aee3b4e5.js" as="script"><link rel="prefetch" href="/assets/index.html-96742bb6.js" as="script"><link rel="prefetch" href="/assets/bar.html-9ebededc.js" as="script"><link rel="prefetch" href="/assets/file.html-6f6f694c.js" as="script"><link rel="prefetch" href="/assets/foo.html-5842a176.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-51203c9f.js" defer></script>
+  </body>
+</html>

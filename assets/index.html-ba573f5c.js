@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7444d4f5","path":"/bar/","title":"账户","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"账户","description":"页面的描述"},"headers":[],"git":{"updatedTime":1690127472000,"contributors":[{"name":"Xiasong Chen","email":"296724771@qq.com","commits":1}]},"filePathRelative":"bar/README.md"}');export{t as data};
