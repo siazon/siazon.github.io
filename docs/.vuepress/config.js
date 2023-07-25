@@ -95,5 +95,5 @@ export default defineUserConfig({
   title: "Xiasong Chen",
   description: "Never settle for mediocrity.",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
-  base: '/blog/' 
+  base: '/' 
 });
