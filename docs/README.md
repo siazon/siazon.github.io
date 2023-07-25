@@ -18,7 +18,7 @@ features:
 - title: Open source contribution
   details: Enjoy the sense of success that comes with identifying and resolving issues.
 - title: PhD program in progress
-  details: Human Gait Assessment using XR and CNN.
+  details: Human Gait Assessment using XR and CNN and AI.
 footer: MIT Licensed | Copyright © 2013-present Siazon Chen
 ---
 
