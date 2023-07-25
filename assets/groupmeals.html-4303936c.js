@@ -1,4 +1,4 @@
-import{_ as e,o as s,c as i,b as a}from"./app-43eb4a4e.js";const n={},l=a(`<h1 id="group-meals" tabindex="-1"><a class="header-anchor" href="#group-meals" aria-hidden="true">#</a> Group meals</h1><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a></h2><div class="language-C# line-numbers-mode" data-ext="C#"><pre class="language-C#"><code>class XxParam: XxxParamCustomer {
+import{_ as e,o as s,c as i,b as a}from"./app-d957e06c.js";const n={},l=a(`<h1 id="group-meals" tabindex="-1"><a class="header-anchor" href="#group-meals" aria-hidden="true">#</a> Group meals</h1><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a></h2><div class="language-C# line-numbers-mode" data-ext="C#"><pre class="language-C#"><code>class XxParam: XxxParamCustomer {
 
     public List&lt;string&gt; details{get;set}
 }
