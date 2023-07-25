@@ -1,1 +1,0 @@
-import{_ as a,o,c as t,d as e,e as c}from"./app-51203c9f.js";const r={},s=e("h1",{id:"wiiya国际",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#wiiya国际","aria-hidden":"true"},"#"),c(" Wiiya国际")],-1),i=[s];function n(_,d){return o(),t("div",null,i)}const h=a(r,[["render",n],["__file","foo.html.vue"]]);export{h as default};
