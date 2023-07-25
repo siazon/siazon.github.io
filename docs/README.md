@@ -12,7 +12,7 @@ actions:
     type: secondary
 features:
 - title: 7 years developer
-  details: Developer with 7 years of experience involved in the full software dev lifecycle from planning to launch, have a good understanding of DevOps, and familiar with Linux. 
+  details: Developer with 7+ years of experience involved in the full software dev lifecycle from planning to launch, have a good understanding of DevOps, and familiar with Linux. 
   link: /projects/
   imgUrl: /personal.jpg
 - title: Open source contribution
