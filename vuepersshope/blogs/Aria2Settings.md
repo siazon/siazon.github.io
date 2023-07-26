@@ -2,6 +2,7 @@
 lang: zh-CN
 title: Aria2 Settings
 description: 页面的描述
+order: 2
 ---
 # Aria2 Settings
 

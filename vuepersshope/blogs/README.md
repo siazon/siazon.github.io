@@ -8,6 +8,7 @@ category:
 
 ## Catalog
 
+- [Good night, Chen](AIImg.md)
 - [Aria2 Settings](Aria2Settings.md)
   
 - [Engineering Fundamentals Checklist](EngineeringFundamentalsChecklist.md)
@@ -17,5 +18,4 @@ category:
 - [PhD Personal Statement](PhDPersonalStatement.md)
 
 
-- [PhD Personal Statement](/article/)
 

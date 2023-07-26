@@ -2,6 +2,7 @@
 lang: zh-CN
 title: Engineering Fundamentals Checklist
 description: 页面的描述
+order: 3
 star: true
 ---
 # Engineering Fundamentals Checklist

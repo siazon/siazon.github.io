@@ -2,6 +2,7 @@
 lang: zh-CN
 title: Git Contribute
 description: 页面的描述
+order: 4
 ---
 
 # Git Contribute
