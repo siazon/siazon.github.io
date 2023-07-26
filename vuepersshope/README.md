@@ -6,7 +6,7 @@ title: Home
 heroImage: /personal.jpg
 heroText: Xiasong Chen
 tagline: Never settle for mediocrity.
-bgImage: https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg
+bgImage: https://cdn.staticaly.com/gh/siazon/picx-images-hosting@master/20230726/hero.4zwafb8h9ko0.webp
 heroFullScreen: true
 projects:
   - icon: /assets/icon/dotnet.svg
