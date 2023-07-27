@@ -39,9 +39,9 @@ projects:
     desc: Microsoft's public cloud platform.
     link: https://link.to.your.article
 
-  - icon: /assets/icon/file-type-jenkins.svg
-    name: Jenkins
-    desc: An automation tool written in Java with plugins built for CI/CD.
+  - icon: /assets/icon/centos.svg
+    name: CentOS
+    desc: CLI, VI, Kernel, Shell, APP, LILO, Process state, Swap space, run level
     link: https://link.to.your.friend
 
   - icon: /assets/icon/azuredevops.svg
