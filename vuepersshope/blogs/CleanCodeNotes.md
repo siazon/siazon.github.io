@@ -9,27 +9,8 @@ order: 0
 
 ## Table of contents
 
-- [Chapter 1 - Clean Code](#chapter1)
-- [Chapter 2 - Meaningful Names](#chapter2)
-- [Chapter 3 - Functions](#chapter3)
-- [Chapter 4 - Comments](#chapter4)
-- [Chapter 5 - Formatting](#chapter5)
-- [Chapter 6 - Objects and Data Structures](#chapter6)
-- [Chapter 7 - Error Handling](#chapter7)
-- [Chapter 8 - Boundaries](#chapter8)
-- [Chapter 9 - Unit Tests](#chapter9)
-- [Chapter 10 - Classes](#chapter10)
-- [Chapter 11 - Systems](#chapter11)
-- [Chapter 12 - Emergence](#chapter12)
-- [Chapter 13 - Concurrency](#chapter13)
-- [Chapter 14 - Successive Refinement](#chapter14)
-- [Chapter 15 - JUnit Internals](#chapter15)
-- [Chapter 16 - Refactoring SerialDate](#chapter15)
-- [Chapter 17 - Smells and Heuristics](#chapter17)
+## Chapter 1 -  Clean Code
 
-<a name="chapter1">
-<h1>Chapter 1 -  Clean Code</h1>
-</a>
 This Book is about good programming. It's about how to write good code, and how to transform bad code into good code.
 
 The code represents the detail of the requirements and the details cannot be ignored or abstracted. We may create languages that are closer to the requirements. We can create tools that help us parse and assemble those requirements into formal structures. But we will never eliminate necessary precision.
@@ -70,9 +51,7 @@ It's a good practice apply the [Boy Scout Rule](http://programmer.97things.oreil
 
 > Always leave the campground cleaner than you found it.
 
-<a name="chapter2">
-<h1>Chapter 2 -  Meaningful Names</h1>
-</a>
+## Chapter 2 -  Meaningful Names
 
 Names are everywhere in software. Files, directories, variables functions, etc. Because we do so much of it. We have better do it well.
 
@@ -275,9 +254,7 @@ In an imaginary application called “Gas Station Deluxe,” it is a bad idea to
 
 Shorter names are generally better than longer ones, so long as they are clear. Add no more context to a name than is necessary.
 
-<a name="chapter3">
-<h1>Chapter 3 -  Functions</h1>
-</a>
+## Chapter 3 -  Functions
 
 Functions are the first line of organization in any topic.
 
@@ -407,9 +384,7 @@ While we are sympathetic to the goals and disciplines of structured programming,
 
 So if you keep your functions small, then the occasional multiple `return` , `break` , or `continue` statement does no harm and can sometimes even be more expressive than the single-entry, single-exit rule. On the other hand, `goto` only makes sense in large functions, so it should be avoided
 
-<a name="chapter4">
-<h1>Chapter 4 -  Comments</h1>
-</a>
+## Chapter 4 -  Comments
 
 Nothing can be quite so helpful as a well-placed comment. Nothing can clutter up a module more than frivolous dogmatic comments. Nothing can be quite so damaging as an old comment that propagates lies and misinformation.
 
@@ -752,9 +727,7 @@ Short functions don’t need much description. A well-chosen name for a small fu
 
 Javadocs are for public APIs, in nonpublic code could be a distraction more than a help.
 
-<a name="chapter5">
-<h1>Chapter 5 -  Formatting</h1>
-</a>
+## Chapter 5 -  Formatting
 
 Code formatting is important. It is too important to ignore and it is too important to treat religiously. Code formatting is about communication, and communication is the professional developer’s first order of business.
 
@@ -920,9 +893,7 @@ Every programmer has his own favorite formatting rules, but if he works in a tea
 
 A team of developers should agree upon a single formatting style, and then every member of that team should use that style. We want the software to have a consistent style. We don't want it to appear to have been written by a bunch of disagreeing individuals.
 
-<a name="chapter6">
-<h1>Chapter 6 -  Objects and Data Structures</h1>
-</a>
+## Chapter 6 -  Objects and Data Structures
 
 ### Data Abstraction
 
@@ -1030,9 +1001,7 @@ The method should not invoke methods on objects that are returned by any of the 
 
 The quintessential form of a data structure is a class with public variables and no functions. This is sometimes called a data transfer object, or DTO. DTOs are very useful structures, especially when communicating with databases or parsing messages from sockets, and so on. They often become the first in a series of translation stages that convert raw data in a database into objects in the application code.
 
-<a name="chapter7">
-<h1>Chapter 7 -  Error Handling</h1>
-</a>
+## Chapter 7 -  Error Handling
 
 Many code bases are completely dominated by error handling. When I say dominated, I don't mean that error handling is all that they do. I mean that it is nearly impossible to see what the code does because of all of the scattered error handling. Error handling is important, but if it obscures logic, it's wrong.
 
@@ -1058,9 +1027,7 @@ If you are tempted to return null from a method, consider throwing an exception 
 
 Returning null from methods is bad, but passing null into methods is worse. Unless you are working with an API which expects you to pass null, you should avoid passing null in your code whenever possible.
 
-<a name="chapter8">
-<h1>Chapter 8 -  Boundaries</h1>
-</a>
+## Chapter 8 -  Boundaries
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack- ages or use open source. Other times we depend on teams in our own company to produce components or subsystems for us. Somehow we must cleanly integrate this foreign code with our own.
 
@@ -1110,9 +1077,7 @@ Some times it's necessary work in a module that will be connected to another mod
 
 Interesting things happen at boundaries. Change is one of those things. Good software designs accommodate change without huge investments and rework. When we use code that is out of our control, special care must be taken to protect our investment and make sure future change is not too costly.
 
-<a name="chapter9">
-<h1>Chapter 9 -  Unit Tests</h1>
-</a>
+## Chapter 9 -  Unit Tests
 
 **T**est
 **D**riven
@@ -1148,9 +1113,7 @@ This rule will help you to keep short functions.
 - **Self-Validating** Test should have a boolean output. either they pass or fail.
 - **Timely** Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, then you may find the production code to be hard to test.
 
-<a name="chapter10">
-<h1>Chapter 10 -  Classes</h1>
-</a>
+## Chapter 10 -  Classes
 
 ## Class Organization
 
@@ -1185,9 +1148,7 @@ For most systems, change is continual. Every change subjects us to the risk that
 
 Needs will change, therefore code will change. We learned in OO 101 that there are concrete classes, which contain implementation details (code), and abstract classes, which represent concepts only. A client class depending upon concrete details is at risk when those details change. We can introduce intefaces and abstract classes to help isolate the impact of those details.
 
-<a name="chapter11">
-<h1>Chapter 11 -  Systems</h1>
-</a>
+## Chapter 11 -  Systems
 
 ## Separate Constructing a System from using It
 
@@ -1204,9 +1165,7 @@ The Abstract Factory Pattern is an option for this kind of approach.
 A powerful mechanism for separating construction from use is Dependency Injection (DI), the application of Inversion of control (IoC) to dependency management. Inversion of control moves secondary responsibilities from an object to other objects that are dedicated to the purpose, thereby supporting the Single Responsibility Principle. In context of dependency management, an object should not take responsibility for instantiating dependencies itself. Instead, it, should pass this responsibility to another "authoritative" mechanism, thereby inverting the control. Because setup is a global concern, this authoritative mechanism will usually be either the "main"
 routine or a special-purpose _container_.
 
-<a name="chapter12">
-<h1>Chapter 12 -  Emergence</h1>
-</a>
+## Chapter 12 -  Emergence
 
 According to Kent Beck, a design is "simple" if it follows these rules
 
@@ -1215,9 +1174,7 @@ According to Kent Beck, a design is "simple" if it follows these rules
 - Expresses the intent of programmers
 - Minimizes the number of classes and methods
 
-<a name="chapter13">
-<h1>Chapter 13 -  Concurrency</h1>
-</a>
+## Chapter 13 -  Concurrency
 
 Concurrence is a decoupling strategy. It helps us decouple what gets fone from when it gets done. In single-threaded applications what and when are so strongly coupled that the state of the entire application can often be determined by looking at the stack backtrace. A programmer who debugs such a system can set a breakpoint, or a sequence of breakpoints, and know the state of the system by which breakpoints are hit.
 
