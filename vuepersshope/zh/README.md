@@ -6,38 +6,48 @@ title: 主页
 heroImage: /personal.jpg
 heroText: 陈夏松
 heroFullScreen: true
-tagline: 永不满于平庸。
+tagline: 绝对不满足于平庸。
 bgImage: https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: /assets/icon/dotnet.svg
+    name: C#
+    desc: WinForm, WPF, asp.net mvc, .net core, WinUI, MAUI, LINQ, EF
+    link: https://your.project.link
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: /assets/icon/java-light.svg
+    name: Java
+    desc: JSP, JSF, Spring boot, JPA, Maven, Tomcat, Kafka
+    link: https://link.address
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: /assets/icon/mysql.svg
+    name: Sql
+    desc: MS SQL server, MySQL, PostgreSQL
+    link: https://link.to.your.book
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: /assets/icon/vue.svg
+    name: Vue.js
+    desc: The Progressive JavaScript Framework 
+    link: https://link.to.your.book
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: /assets/icon/docker.svg
+    name: Dorker
+    desc: Develop faster. Run anywhere.
+    link: https://link.to.your.friend
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  - icon: /assets/icon/file-type-azure.svg
+    name: Azure
+    desc: Microsoft's public cloud platform.
+    link: https://link.to.your.article
+
+  - icon: /assets/icon/centos.svg
+    name: CentOS
+    desc: CLI, VI, Kernel, Shell, APP, LILO, Process state, Swap space, run level
+    link: https://link.to.your.friend
+
+  - icon: /assets/icon/azuredevops.svg
+    name: DevOps
+    desc: Git-Build-Test-CI/CD-Docker-Kubernetes-Cloud-Collaboration
+    link: https://link.to.your.friend
 
 footer: 自定义你的页脚文字
 ---
