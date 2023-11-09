@@ -13,5 +13,5 @@ tag:
 An AI generated image, very interesting. 
 
 
-![Good night Chen](https://cdn.staticaly.com/gh/siazon/picx-images-hosting@master/20230726/goodnight.3nqxgbojkey0.webp =x500)
+![Good night Chen](https://cdn.statically.io/gh/siazon/picx-images-hosting@master/20230726/goodnight.3nqxgbojkey0.webp =x500)
 "Good night Chen"

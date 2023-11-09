@@ -13,5 +13,5 @@ tag:
 AI生成的图片, 非常有意思，好像还有类似的二维码. 
 
 
-![Good night Chen](https://cdn.staticaly.com/gh/siazon/picx-images-hosting@master/20230726/goodnight.3nqxgbojkey0.webp =x500)
+![Good night Chen](https://cdn.statically.io/gh/siazon/picx-images-hosting@master/20230726/goodnight.3nqxgbojkey0.webp =x500)
 "小陈晚安"
