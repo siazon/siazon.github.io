@@ -12,6 +12,8 @@ jobs:
   build-and-deploy:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # 拉取代码
       - name: Checkout
@@ -32,5 +34,6 @@ jobs:
           # 部署目录为 VuePress 的默认输出目录
           build_dir: vuepersshope/.vuepress/dist
         env:
+          # 使用内置的 GITHUB_TOKEN，不会过期，不需要再手动维护 PAT
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.VUE_BLOG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
